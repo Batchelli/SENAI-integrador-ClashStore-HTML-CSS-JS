@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Clash Store</title>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="images/bgs/logo.png" type="image/png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/styleF.css">
+	<link rel="stylesheet" type="text/css" href="css/cartStyle.css">
+	<link rel="stylesheet" type="text/css" href="css/modalStyle.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="logoimg">
+				<a href="index.html"><img src="images/bgs/logo.png" alt="logo"></a>
+			</div>
+			<div class="logo">
+                <a  href="index.html" style="color: #fff">
+                    <h1>Clash</h1>
+                    <h1>Store</h1>
+                </a>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="funko.html">Funko Pop</a></li>
+					<li><a href="af.html">Action Figure</a></li>
+					<li><a href="form.html">Contact</a></li>
+					<li><a href="about.html">About</a></li>
+				</ul>
+			</nav>
+			<div id="search">
+				<form action="#" method="get">
+					<input type="text" name="search" placeholder="Search...">
+					<button type="submit">Search</button>
+				</form>
+			</div>
+			<div id="login">
+				<button onclick="openModalCart()">Cart</button>
+			</div>
+		</div>
+	</header>
+	<div class="titulo">
+		<div class="line">
+			<div class="text-titulo">Action Figures</div>
+		</div>
+	</div>
+	<div class="container"></div>
+		<section id="daily-deals">
+			<div class="deal-card">
+				<img src="images/af/asheAF.png" class="product-image">
+					<h3 class="product-title">Ashe</h3>
+					<div class="product-price-container">
+						<span class="product-price">$75,00</span>
+					</div>
+					<br>
+					<button type="button" class="buy-now-button" onclick="openModal('modal16')">Buy now</button>
+					<br>
+			</div>
+			
+			<div class="deal-card">
+				<img src="images/af/teemoAF.png" class="product-image">
+					<h3 class="product-title">Teemo</h3>
+					<div class="product-price-container">
+						<span class="product-price">$499.00</span>
+					</div>
+					<br>
+					<button type="button" class="buy-now-button" onclick="openModal('modal15')">Buy now</button>
+					<br>
+			</div>
+
+			<div class="deal-card">
+				<img src="images/af/katarinaAF.png" class="product-image">
+					<h3 class="product-title">Katarina</h3>
+					<div class="product-price-container">
+						<span class="product-price">$75.00</span>
+					</div>
+					<br>
+					<button type="button" class="buy-now-button" onclick="openModal('modal14')">Buy now</button>
+					<br>
+			</div>
+
+			<div class="deal-card">
+				<img src="images/af/dariusAF.png" class="product-image">
+					<h3 class="product-title">Darius</h3>
+					<div class="product-price-container">
+						<span class="product-price">$84.99</span>
+					</div>
+					<br>
+					<button type="button" class="buy-now-button" onclick="openModal('modal13')">Buy now</button>
+					<br>
+			</div>
+
+			<div class="deal-card">
+				<img src="images/af/mfAF.png" class="product-image">
+					<h3 class="product-title">Miss Fortune</h3>
+					<div class="product-price-container">
+						<span class="product-price">$75.00</span>
+					</div>
+					<br>
+					<button type="button" class="buy-now-button" onclick="openModal('modal12')">Buy now</button>
+					<br>
+			</div>
+			
+			<div class="deal-card">
+				<img src="images/af/jinxAf.png" class="product-image">
+					<h3 class="product-title">Jinx</h3>
+					<div class="product-price-container">
+						<span class="product-price">$75.00</span>
+					</div>
+					<br>
+					<button type="button" class="buy-now-button" onclick="openModal('modal11')">Buy now</button>
+					<br>
+			</div>
+			
+
+			<div class="deal-card">
+				<img src="images/af/viAF.png" class="product-image">
+					<h3 class="product-title">Vi</h3>
+					<div class="product-price-container">
+						<span class="product-price">$75,00</span>
+					</div>
+					<br>
+					<button type="button" class="buy-now-button" onclick="openModal('modal10')">Buy now</button>
+					<br>
+			</div>
+			
+
+			<div class="deal-card">
+				<img src="images/af/caitAF.png" class="product-image">
+					<h3 class="product-title">Caitlyn</h3>
+					<div class="product-price-container">
+						<span class="product-price">$75.00</span>
+					</div>
+					<br>
+					<button type="button" class="buy-now-button" onclick="openModal('modal9')">Buy now</button>
+					<br>
+			</div>
+				
+			<div class="deal-card">
+				<img src="images/af/viegoAF.png" class="product-image">
+					<h3 class="product-title">Viego</h3>
+					<div class="product-price-container">
+						<span class="product-price">$75.00</span>
+					</div>
+					<br>
+					<button type="button" class="buy-now-button" onclick="openModal('modal8')">Buy now</button>
+					<br>
+			</div>
+			
+			<div class="deal-card">
+				<img src="images/af/rivenAF.png" class="product-image">
+					<h3 class="product-title">Riven Dawnbringer</h3>
+					<div class="product-price-container">
+						<span class="product-price">$85.00</span>
+					</div>
+					<br>
+						<button type="button" class="buy-now-button" onclick="openModal('modal7')">Buy now</button>
+						<br>
+			</div>
+			
+			<div class="deal-card">
+				<img src="images/af/vayneAf.png" class="product-image">
+					<h3 class="product-title">Vayne</h3>
+					<div class="product-price-container">
+						<span class="product-price">$75.00</span>
+					</div>
+					<br>
+					<button type="button" class="buy-now-button" onclick="openModal('modal6')">Buy now</button>
+					<br>
+			</div>
+			
+			<div class="deal-card">
+				<img src="images/af/jhinAF.png" class="product-image">
+					<h3 class="product-title">Jhin</h3>
+					<div class="product-price-container">
+						<span class="product-price">$44.44</span>
+					</div>
+					<br>
+					<button type="button" class="buy-now-button" onclick="openModal('modal5')">Buy now</button>
+					<br>
+			</div>
+				
+			<div class="deal-card">
+				<img src="images/af/garenAF.png" class="product-image">
+					<h3 class="product-title">Garen</h3>
+					<div class="product-price-container">
+						<span class="product-price">$85.00</span>
+					</div>
+					<br>
+					<button type="button" class="buy-now-button" onclick="openModal('modal1')">Buy now</button>
+					<br>
+			</div>
+
+			<div class="deal-card">
+				<img src="images/af/xaya.png" class="product-image">
+					<h3 class="product-title">Xayah</h3>
+					<div class="product-price-container">
+						<span class="product-price">$180.00</span>
+					</div>
+					<br>
+					<button type="button" class="buy-now-button" onclick="openModal('modal2')">Buy now</button>
+					<br>
+			</div>
+
+			<div class="deal-card">
+				<img src="images/af/rakan.png" class="product-image">
+					<h3 class="product-title">Rakan</h3>
+					<div class="product-price-container">
+						<span class="product-price">$180.00</span>
+					</div>
+					<br>
+					<button type="button" class="buy-now-button" onclick="openModal('modal3')">Buy now</button>
+					<br>
+			</div>
+
+			<div class="deal-card">
+				<img src="images/af/EvelynAf.png" class="product-image">
+					<h3 class="product-title">Evellyn</h3>
+					<div class="product-price-container">
+						<span class="product-price">$75.00</span>
+					</div>
+					<br>
+					<button type="button" class="buy-now-button" onclick="openModal('modal4')">Buy now</button>
+					<br>
+			</div>
+		</section>
+
+	</div>
+	<div class="container">
+		<div id="modal16" class="modal">
+			<div class="modal-content">
+				<button class="modal-close-button" onclick="closeModal('modal16')">
+					<span class="modal-close" onclick="closeModalCart()">&times;</span>
+				</button>
+				<div class="modal-product">
+					<img src="images/af/asheAF.png" class="product-image">
+					<div class="modal-product-details">
+						<h3 class="product-title">Ashe</h3>	
+						<p class="modal-product-description">
+							Approximate Measurements:<br>
+							Height: 2.3 - 2.7 in / 6.1 - 6.7 cm<br>
+							Width: 1.6 - 2.4 in / 4.1 - 6.2 cm
+						</p>
+						<span class="product-price">$75,00</span>
+						<button type="button" class="button-hover-background">Buy now</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="modal15" class="modal">
+			<div class="modal-content">
+				<button class="modal-close-button" onclick="closeModal('modal15')">
+					<span class="modal-close" onclick="closeModalCart()">&times;</span>
+				</button>
+				<div class="modal-product">
+					<img src="images/af/teemoAF.png" class="product-image">
+					<div class="modal-product-details">
+						<h3 class="product-title">Teemo</h3>	
+						<p class="modal-product-description">
+							Approximate Measurements:<br>
+							Height: 2.3 - 2.7 in / 6.1 - 6.7 cm<br>
+							Width: 1.6 - 2.4 in / 4.1 - 6.2 cm
+						</p>
+						<span class="product-price">$499.00</span>
+						<button type="button" class="button-hover-background">Buy now</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="modal14" class="modal">
+			<div class="modal-content">
+				<button class="modal-close-button" onclick="closeModal('modal14')">
+					<span class="modal-close" onclick="closeModalCart()">&times;</span>
+				</button>
+				<div class="modal-product">
+					<img src="images/af/katarinaAF.png" class="product-image">
+					<div class="modal-product-details">
+						<h3 class="product-title">Katarina</h3>	
+						<p class="modal-product-description">
+							Approximate Measurements:<br>
+							Height: 2.3 - 2.7 in / 6.1 - 6.7 cm<br>
+							Width: 1.6 - 2.4 in / 4.1 - 6.2 cm
+						</p>
+						<span class="product-price">$75.00</span>
+						<button type="button" class="button-hover-background">Buy now</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="modal13" class="modal">
+			<div class="modal-content">
+				<button class="modal-close-button" onclick="closeModal('modal13')">
+					<span class="modal-close" onclick="closeModalCart()">&times;</span>
+				</button>
+				<div class="modal-product">
+					<img src="images/af/dariusAF.png" class="product-image">
+					<div class="modal-product-details">
+						<h3 class="product-title">Darius</h3>	
+						<p class="modal-product-description">
+							Approximate Measurements:<br>
+							Height: 2.3 - 2.7 in / 6.1 - 6.7 cm<br>
+							Width: 1.6 - 2.4 in / 4.1 - 6.2 cm
+						</p>
+						<span class="product-price">$84.99</span>
+						<button type="button" class="button-hover-background">Buy now</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="modal12" class="modal">
+			<div class="modal-content">
+				<button class="modal-close-button" onclick="closeModal('modal12')">
+					<span class="modal-close" onclick="closeModalCart()">&times;</span>
+				</button>
+				<div class="modal-product">
+					<img src="images/af/mfAF.png" class="product-image">
+					<div class="modal-product-details">
+						<h3 class="product-title">Vi</h3>	
+						<p class="modal-product-description">
+							Approximate Measurements:<br>
+							Height: 2.3 - 2.7 in / 6.1 - 6.7 cm<br>
+							Width: 1.6 - 2.4 in / 4.1 - 6.2 cm
+						</p>
+						<span class="product-price">$75.00</span>
+						<button type="button" class="button-hover-background">Buy now</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="modal11" class="modal">
+			<div class="modal-content">
+				<button class="modal-close-button" onclick="closeModal('modal11')">
+					<span class="modal-close" onclick="closeModalCart()">&times;</span>
+				</button>
+				<div class="modal-product">
+					<img src="images/af/jinxAf.png" class="product-image">
+					<div class="modal-product-details">
+						<h3 class="product-title">Jinx</h3>	
+						<p class="modal-product-description">
+							Approximate Measurements:<br>
+							Height: 2.3 - 2.7 in / 6.1 - 6.7 cm<br>
+							Width: 1.6 - 2.4 in / 4.1 - 6.2 cm
+						</p>
+						<span class="product-price">$75.00</span>
+						<button type="button" class="button-hover-background">Buy now</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="modal10" class="modal">
+			<div class="modal-content">
+				<button class="modal-close-button" onclick="closeModal('modal10')">
+					<span class="modal-close" onclick="closeModalCart()">&times;</span>
+				</button>
+				<div class="modal-product">
+					<img src="images/funko/mfFunko.png" class="product-image">
+					<div class="modal-product-details">
+						<h3 class="product-title">Vi</h3>	
+						<p class="modal-product-description">
+							Approximate Measurements:<br>
+							Height: 2.3 - 2.7 in / 6.1 - 6.7 cm<br>
+							Width: 1.6 - 2.4 in / 4.1 - 6.2 cm
+						</p>
+						<span class="product-price">$75,00</span>
+						<button type="button" class="button-hover-background">Buy now</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="modal9" class="modal">
+			<div class="modal-content">
+				<button class="modal-close-button" onclick="closeModal('modal9')">
+					<span class="modal-close" onclick="closeModalCart()">&times;</span>
+				</button>
+				<div class="modal-product">
+					<img src="images/af/caitAF.png" class="product-image">
+					<div class="modal-product-details">
+						<h3 class="product-title">Caitlyn</h3>	
+						<p class="modal-product-description">
+							Approximate Measurements:<br>
+							Height: 2.3 - 2.7 in / 6.1 - 6.7 cm<br>
+							Width: 1.6 - 2.4 in / 4.1 - 6.2 cm
+						</p>
+						<span class="product-price">$75.00</span>
+						<button type="button" class="button-hover-background">Buy now</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="modal8" class="modal">
+			<div class="modal-content">
+				<button class="modal-close-button" onclick="closeModal('modal8')">
+					<span class="modal-close" onclick="closeModalCart()">&times;</span>
+				</button>
+				<div class="modal-product">
+					<img src="images/af/viegoAF.png" class="product-image">
+					<div class="modal-product-details">
+						<h3 class="product-title">Viego</h3>	
+						<p class="modal-product-description">
+							Approximate Measurements:<br>
+							Height: 2.3 - 2.7 in / 6.1 - 6.7 cm<br>
+							Width: 1.6 - 2.4 in / 4.1 - 6.2 cm
+						</p>
+						<span class="product-price">$75.00</span>
+						<button type="button" class="button-hover-background">Buy now</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="modal7" class="modal">
+			<div class="modal-content">
+				<button class="modal-close-button" onclick="closeModal('modal7')">
+					<span class="modal-close" onclick="closeModalCart()">&times;</span>
+				</button>
+				<div class="modal-product">
+					<img src="images/af/rivenAF.png" class="product-image">
+					<div class="modal-product-details">
+						<h3 class="product-title">Riven Dawnbringer</h3>	
+						<p class="modal-product-description">
+							Approximate Measurements:<br>
+							Height: 2.3 - 2.7 in / 6.1 - 6.7 cm<br>
+							Width: 1.6 - 2.4 in / 4.1 - 6.2 cm
+						</p>
+						<span class="product-price">$85.00</span>
+						<button type="button" class="button-hover-background">Buy now</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="modal6" class="modal">
+			<div class="modal-content">
+				<button class="modal-close-button" onclick="closeModal('modal6')">
+					<span class="modal-close" onclick="closeModalCart()">&times;</span>
+				</button>
+				<div class="modal-product">
+					<img src="images/af/vayneAf.png" class="product-image">
+					<div class="modal-product-details">
+						<h3 class="product-title">Vayne</h3>	
+						<p class="modal-product-description">
+							Approximate Measurements:<br>
+							Height: 2.3 - 2.7 in / 6.1 - 6.7 cm<br>
+							Width: 1.6 - 2.4 in / 4.1 - 6.2 cm
+						</p>
+						<span class="product-price">$75.00</span>
+						<button type="button" class="button-hover-background">Buy now</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="modal5" class="modal">
+			<div class="modal-content">
+				<button class="modal-close-button" onclick="closeModal('modal5')">
+					<span class="modal-close" onclick="closeModalCart()">&times;</span>
+				</button>
+				<div class="modal-product">
+					<img src="images/af/jhinAF.png" class="product-image">
+					<div class="modal-product-details">
+						<h3 class="product-title">Jhin</h3>	
+						<p class="modal-product-description">
+							Approximate Measurements:<br>
+							Height: 2.3 - 2.7 in / 6.1 - 6.7 cm<br>
+							Width: 1.6 - 2.4 in / 4.1 - 6.2 cm
+						</p>
+						<span class="product-price">$44.44</span>
+						<button type="button" class="button-hover-background">Buy now</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="modal1" class="modal">
+			<div class="modal-content">
+				<button class="modal-close-button" onclick="closeModal('modal1')">
+					<span class="modal-close" onclick="closeModalCart()">&times;</span>
+				</button>
+				<div class="modal-product">
+					<img src="images/af/garenAF.png" class="product-image">
+					<div class="modal-product-details">
+						<h3 class="product-title">Garen</h3>	
+						<p class="modal-product-description">
+							Approximate Measurements:<br>
+							Height: 2.3 - 2.7 in / 6.1 - 6.7 cm<br>
+							Width: 1.6 - 2.4 in / 4.1 - 6.2 cm
+						</p>
+						<span class="product-price">$85.00</span>
+						<button type="button" class="button-hover-background">Buy now</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="modal2" class="modal">
+			<div class="modal-content">
+				<button class="modal-close-button" onclick="closeModal('modal2')">
+					<span class="modal-close" onclick="closeModalCart()">&times;</span>
+				</button>
+				<div class="modal-product">
+					<img src="images/af/xaya.png" class="product-image">
+					<div class="modal-product-details">
+						<h3 class="product-title">Xayah</h3>	
+						<p class="modal-product-description">
+							Approximate Measurements:<br>
+							Height: 2.3 - 2.7 in / 6.1 - 6.7 cm<br>
+							Width: 1.6 - 2.4 in / 4.1 - 6.2 cm
+						</p>
+						<span class="product-price">$180.00</span>
+						<button type="button" class="button-hover-background">Buy now</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="modal3" class="modal">
+			<div class="modal-content">
+				<button class="modal-close-button" onclick="closeModal('modal3')">
+					<span class="modal-close" onclick="closeModalCart()">&times;</span>
+				</button>
+				<div class="modal-product">
+					<img src="images/af/rakan.png" class="product-image">
+					<div class="modal-product-details">
+						<h3 class="product-title">Rakan</h3>	
+						<p class="modal-product-description">
+							Approximate Measurements:<br>
+							Height: 2.3 - 2.7 in / 6.1 - 6.7 cm<br>
+							Width: 1.6 - 2.4 in / 4.1 - 6.2 cm
+						</p>
+						<span class="product-price">$180.00</span>
+						<button type="button" class="button-hover-background">Buy now</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="modal4" class="modal">
+			<div class="modal-content">
+				<button class="modal-close-button" onclick="closeModal('modal4')">
+					<span class="modal-close" onclick="closeModalCart()">&times;</span>
+				</button>
+				<div class="modal-product">
+					<img src="images/af/EvelynAf.png" class="product-image">
+					<div class="modal-product-details">
+						<h3 class="product-title">Evellyn</h3>	
+						<p class="modal-product-description">
+							The Exile has returned.<br>
+							Approximate Measurements:<br>
+							Height: 4.9 in / 12.4 cm<br>
+							Width: 3.8 in / 9.7 cm
+						</p>
+						<span class="product-price">$75.00</span>
+						<button type="button" class="button-hover-background">Buy now</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="myModal" class="modal">
+		<div class="modal-content">
+			<button class="modal-close-button" onclick="closeModal()">
+				<span class="modal-close" onclick="closeModalCart()">&times;</span>
+			</button>	
+			<section class="cart">
+				<table class="cart-table">
+					<thead>
+						<tr>
+							<th class="table-head-item first-col">Item</th>
+							<th class="table-head-item second-col">Price</th>
+							<th class="table-head-item third-col">Quantity</th>
+						</tr>
+					</thead>
+
+					<tbody>
+						
+					</tbody>
+
+					<tfoot>
+						<tr>
+						  <td colspan="3" class="cart-total-container">
+							<strong>Total</strong>
+							<span>$0,00</span>
+						  </td>
+						</tr>
+					</tfoot>
+				</table>
+
+				<button type="button" class="purchase-button">Buy</button>
+			</section>
+		</div>
+	</div>	
+	
+    <footer>
+		<footer>
+			<div class="container">
+				<div id="contact">
+					<h3>Find Us</h3>
+					<p>12333 W Olympic Blvd<br>
+					Los Angeles, United States<br>
+					Phone: +1 424-231-1111<br>
+					Email: contactriot@riot.com</p>
+				</div>
+				<div id="map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.444533006884!2d-118.46002382352216!3d34.032466418772906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bb147c58ab95%3A0xd27aa3a914d492b4!2sRiot%20Games%20Inc.!5e0!3m2!1spt-BR!2sbr!4v1686761529024!5m2!1spt-BR!2sbr"
+					 width="100%" height="300" 
+					 style="
+					 border-radius: 5px;
+					 border: 3px solid rgb(136, 24, 192);
+					 box-shadow: 0 5px 5px 5px rgba(113, 12, 163, 0.5);"
+					loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div>
+		</footer>
+	<script src="js/carrinho.js" async></script>	
+	<script src="js/modalCart.js" async></script>
+	<script src="js/modalItem.js" async></script>
+</body>
+</html>

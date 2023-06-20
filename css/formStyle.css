@@ -1,0 +1,253 @@
+/*Inicio das estilizações gerais*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	justify-content: center;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	position: relative;
+	height: 100%;
+	background-image: url('bgs/img_bg.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+header {
+	background-color: #0B0531;
+	color: #fff;
+	padding: 20px;
+}
+
+header img {
+	width: 85px;
+	height: 85px;
+}
+
+.container {
+	width: auto;
+	height: auto;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav ul li {
+	margin-right: 20px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+#search {
+	display: flex;
+	flex-grow: 1;
+}
+
+#search input[type="text"] {
+	padding: 10px;
+	border: none;
+	border-radius: 5px 0 0 5px;
+	height: 90%;
+}
+
+#search button {
+	background-color: #14021D;
+	color: #fff;
+	border: none;
+	padding: 10px;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+}
+
+#login {
+	background-color: #14021D;
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#login:hover {
+	background-color: #710ca3;
+}
+
+footer {
+	background-color: #0B0531;
+	color: #fff;
+	padding: 50px 0;
+}
+
+footer .container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+footer h3 {
+	margin-bottom: 20px;
+}
+
+#map {
+	flex-basis: 100%;
+	height: 300px;
+	margin-top: 20px;
+}
+
+.logoimg {
+	justify-content: center;
+	width: 85px;
+	height: 80px;
+}
+
+.logo {
+	margin-left: 60px;
+	margin-right: 60px;
+}
+/*Fim das estilizações gerais*/
+
+/*Inicio da estilização do forms e about us*/
+form {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: weight;
+	font-style: normal;
+	padding: 10px;
+}
+
+fieldset {
+	border: none;
+	font-weight: normal;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+	box-sizing: border-box;
+	outline: none;
+	display: block;
+	color: #333333;
+	width: 100%;
+	padding: 7px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 10px;
+	font-family: inherit;
+	font-size: 18px;
+	height: 90%;
+}
+
+textarea {
+	height: 200px;
+}
+
+button[type="submit"] {
+	display: block;
+	padding: 19px 39px 18px 39px;
+	color: #fff;
+	background: #0B0531;
+	font-size: 18px;
+	width: 100%;
+	border: 0px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	transition: .3s;
+	outline: none;
+}
+
+button:hover {
+	background: #710ca3;
+}
+/*Inicio da estilização do forms e about us*/
+
+/*Inicio da estilização do "Background Box"*/
+.deal-card {
+	max-width: 600px;
+	max-height: 100%;
+	height: auto;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: 0.5s ease;
+	background-color: rgba(11, 5, 49, 0.5);
+	border-radius: 5px;
+	box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5);
+	text-align: center;
+	margin: 20px;
+	color: #fff;
+}
+.deal-card button {
+	height: 100%;
+	width: 100%;
+	background-color: #14021D;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.deal-card button:hover {
+	background-color: #710ca3;
+}
+
+.about{
+	font-size: 25px;
+}
+/*Fim da estilização do "Background Box"*/
+
+/*Responsividade do forms e do about us*/
+@media (max-width: 768px) {
+	body {
+		background-attachment: scroll;
+	}
+
+	.container {
+		flex-direction: column;
+	}
+
+	header {
+		padding: 10px;
+	}
+
+	.deal-card {
+		height: 400px;
+	}
+
+	footer .container {
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 480px) {
+	.deal-card {
+		height: 350px;
+	}
+}
+
+@media (max-width: 375px) {
+	.about{
+		font-size:2.5vw
+	}
+}
